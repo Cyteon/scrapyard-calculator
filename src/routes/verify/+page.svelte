@@ -54,10 +54,10 @@
         Prove that you are not a human
     </h1>
     
-    <div class="border mx-auto p-2 rounded-md mt-4">
+    <div class="border mx-2 md:mx-auto p-2 rounded-md mt-4">
         <div class="flex">
             <div class="captcha rounded-md text-lg">{captchaText}</div>
-            <input type="text" class="border p-1 rounded-md flex-1 mx-1" bind:value={captchaInput} placeholder="Enter CAPTCHA" />
+            <input type="text" class="border p-1 rounded-md flex-1 mx-1 w-8 md:w-full" bind:value={captchaInput} placeholder="Enter CAPTCHA" />
             <button on:click={verifyCaptcha} class="bg-blue-500 text-white p-2 rounded-md">Verify</button>
         </div>
 
