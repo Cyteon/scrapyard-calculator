@@ -193,8 +193,8 @@
 	<p class="w-full text-center text-xl">You havent paid :(</p>
 {/if}
 
-<div class="calculator">
-	<input type="text" bind:value={console} readonly="true"/>
+<div class="calculator rounded-md">
+	<input type="text" class="p-2 border rounded-md mb-2" bind:value={console} readonly="true"/>
 	<div class="buttons">
 		<div class="operations">
 			<button id="-" on:click={()=>{setOperation('substract');}}>
