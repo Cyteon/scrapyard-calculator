@@ -143,59 +143,42 @@
 
 <style>
 	.calculator {
-		position:absolute;
-		top:50%;
-		left:50%;
-		transform:translate(-50%,-50%);
-		width:300px;
-		border:1px solid #eee;
-		box-shadow:2px 2px 2px #eee;
-		padding:10px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		width: 300px;
+		border: 1px solid #eee;
+		box-shadow: 2px 2px 2px #eee;
+		padding: 10px;
 	}
 	.calculator input {
-		width:100%;
-		padding:20px;
-		outline:none;
-		text-align:right;
-		font-size:20px;
+		width: 100%;
+		padding: 20px;
+		outline: none;
+		text-align: right;
+		font-size: 20px;
 	}
 	.calculator .buttons {
-		display:flex;
+		display: flex;
 		flex-direction: column;
-		flex-wrap:wrap;
+		flex-wrap: wrap;
 	}
 	.calculator .buttons .operations {
-		display:flex;
-		justify-content:space-between;
-	}
-
-	.calculator .buttons .operations button {
-		width:24%;
+		display: flex;
+		justify-content: space-between;
 	}
 
 	.calculator .buttons .numbers > div {
-		display:flex;
-		justify-content:space-between;
+		display: flex;
+		justify-content: space-between;
 	}
 
-	.calculator .buttons .numbers > div button {
-		width:24%;
-	}
-
-	.calculator .equal {
-		flex:1;
-	}
-
-	.calculator .equal button {
-		width:100%;
-		margin-top: 2px;
-		background:#00acee;
-		color:#eee;
-	}
 	.calculator button {
 		outline: none;
 		border: 1px solid #eee;
 		margin-bottom: 2px;
+		width: 24%;
 	}
 
 	.calculator button:disabled {
