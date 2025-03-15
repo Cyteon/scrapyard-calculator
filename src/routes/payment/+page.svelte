@@ -2,7 +2,7 @@
     import { onMount } from "svelte";
     import { plans } from "$lib";
 
-    var include: String[] = [];
+    var include: string[] = [];
     var total: number = 0;
 
     onMount(() => {
