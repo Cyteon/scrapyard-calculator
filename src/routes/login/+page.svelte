@@ -11,7 +11,7 @@
             return;
         }
 
-        window.location.href = "/app";
+        window.location.href = "/verify";
     }
 
     function bruteforce() {
