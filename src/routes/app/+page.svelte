@@ -189,6 +189,7 @@
 
 <h1 class="text-3xl w-full text-center font-bold mt-2">You owe: ${money.toFixed(4)} USD</h1>
 <p class="w-full text-center text-xl">(${perHour} / hour)</p>
+
 {#if addedPlans == ""}
 	<p class="w-full text-center text-xl">You havent paid :(</p>
 {/if}
