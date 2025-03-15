@@ -12,3 +12,5 @@
         Get Started
     </a>
 </div>
+
+<footer class="absolute bottom-0 left-1">Made by @cyteon and @lenbot7</footer>
