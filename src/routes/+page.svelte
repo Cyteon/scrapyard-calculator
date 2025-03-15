@@ -1,2 +1,23 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<div class="w-full h-screen flex flex-col">
+    <h1 class="mx-auto font-bold text-3xl text-center mt-4">100% completly normal calculator</h1>
+    <p class="mx-auto text-center">
+        features includes stuff like calculating
+
+
+
+
+
+
+
+        <br>
+        powered by the blockchain
+        <br>
+
+
+        uses web3 tech for the finest in calculating technology 
+    </p>
+
+    <a href="/login" class="mt-4 mx-auto bg-green-500 text-white font-bold py-2 px-4 rounded">
+        Get Started
+    </a>
+</div>
